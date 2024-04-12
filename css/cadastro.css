@@ -1,0 +1,91 @@
+body{
+    background-color: wheat;
+}
+
+fieldset{
+    padding: 1%;
+    border-radius: 10px;
+    background: #B0A695;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+    margin-top: 2%;
+    color: black;
+    text-align:left;
+}
+
+legend{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #776B5D;
+    padding: .5%;
+    border: 1px solid #C7C8CC;
+    border-radius: 10px;
+    color: black;
+}
+
+label, input, select, textarea{
+    display: block;
+    box-sizing: border-box;
+}
+
+label{
+    padding: 5px;
+}
+
+input, select, textarea{
+    width: 100%; 
+    border: 1px outset;
+    padding: 10px;
+    background: whitesmoke;
+    color: gray;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus{
+    background: #EEF5FF;
+    border: 1px solid yellow;
+    outline: none;
+}
+
+.label-50{
+    width: 50%;
+    float: left;
+
+}
+
+.center{
+    text-align: center;
+    padding: 2%;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #B4B4B8;
+    border: 1px solid #F2EFE5;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+button:active{
+    background-color: #F2EFE5;
+}
+
+.botao-enviar{
+    background-color: greenyellow;
+}
+
+textarea{
+    height: 50px;
+}

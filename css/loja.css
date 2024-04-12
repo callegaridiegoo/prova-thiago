@@ -1,0 +1,127 @@
+#corpo{
+    margin-top: 2%;
+}
+
+#corpo aside video{
+    max-width: 100%;
+}
+
+#corpo aside, #sobre-nos article{
+    background: #eee;
+    width: 42%;
+    float: left;
+    margin: 1%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0,0, 0.3);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#corpo article{
+    width: 54%;
+    text-align: left;
+    padding: 1%;
+    color: black;
+}
+
+#corpo article p{
+    margin-bottom: 5%;
+    line-height: 25px;
+}
+
+article h3{
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#fotos{
+    overflow: hidden;
+    clear: both;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .3);
+}
+
+figure{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    padding: 5px;
+    max-width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption{
+    background-color: #222;
+    border-radius: 10px;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: wheat;
+    padding: 5%;
+    font-family: 'Trebuchet MS';
+}
+
+#corpo{
+    background-color: #F3EEEA;
+    color: black;
+    border: 1px solid #F3EEEA;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+
+header{
+    background-color: #EBE3D5;
+    padding: 2%;
+    border-bottom: 1px solid #000000;
+}
+
+header h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+   
+}
+main{
+    padding: 2%;
+    text-align: center;
+}
+
+footer{
+    background-color: #EBE3D5;
+    text-align: center;
+    padding: 2%;
+    border-top: 1px solid #000000;
+}
+
+button{
+    background-color: #776B5D;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}

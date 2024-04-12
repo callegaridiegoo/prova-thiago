@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja thiagão</title>
+    <link rel="stylesheet" href="./css/loja.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Roupas do Broglio</h1>
+        </header>
+        <main>
+            <h2>Cadastro do cliente</h2>
+            <fieldset>
+                <legend>Contato</legend>
+                <label>
+                    Nome: <input type="text" name="txt-nome" placeholder="Digite seu nome" required/>
+                </label>
+                <label class="label-50">
+                    E-mail: <input type="text" name="txt-email" placeholder="Digite seu e-mail" required/>
+                </label>
+                <label class="label-50">
+                    Contato: <input type="number" name="txt-contato" placeholder="Digite seu numero" required/>
+                </label>
+                <label class="label-50">
+                    CPF: <input type="number" name="txt-cpf" placeholder="Digite seu CPF" required/>
+                </label>
+                <label class="label-50">
+                    RG: <input type="number" name="txt-rg" placeholder="Digite seu RG" required/>
+                </label>
+                <label class="label-50">
+                    Data de nascimento: <input type="date" name="txt-nascimento" placeholder="" required/>
+                </label>
+                <label class="label-50">
+                    Endereço: <input type="text" name="txt-endereco" placeholder="Digite seu endereço" required/>
+                </label>
+            </fieldset>
+            <p class="center">
+                <button type="submit" class="botao-enviar">Enviar</button>
+                <button type="reset">Cancelar</button>
+            </p>
+        </main>
+    </div>
+</body>
+</html>
